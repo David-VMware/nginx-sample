@@ -1,0 +1,5 @@
+applications:
+- name: nginx-app
+  memory: 64M
+  buildpacks:
+    - nginx_buildpack
